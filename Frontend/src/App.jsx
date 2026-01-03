@@ -1,6 +1,5 @@
 import React from 'react'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
-import { Landing } from './pages/Landing'
 import LandingPage from './pages/LandingPage'
 import Authentication from './pages/Authentication'
 import { AuthProvider } from './contexts/AuthContext'
