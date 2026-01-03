@@ -65,7 +65,6 @@ export default function VideoMeetComponent() {
     // }
 
     useEffect(() => {
-        console.log("HELLO")
         getPermissions();
 
     })
@@ -481,9 +480,9 @@ export default function VideoMeetComponent() {
 
                                     console.log(messages)
                                     return (
-                                        <div style={{ marginBottom: "20px" }} key={index}>
+                                        <div style={{ marginBottom: "20px" ,color:"black"}} key={index}>
                                             <p style={{ fontWeight: "bold" ,color:"red"}}>{item.sender}</p>
-                                            <p>{item.data}</p>
+                                            <p style={{color:"black"}}>{item.data}</p>
                                         </div>
                                     )
                                 }) : <p>No Messages Yet</p>}
