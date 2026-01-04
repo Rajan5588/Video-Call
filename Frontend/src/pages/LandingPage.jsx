@@ -32,7 +32,7 @@ const LandingPage = () => {
                     <h2>
                          <span style={{ color: "#FF9839" }}>Connect</span> with your loved Ones</h2>
 
-                    <p>Cover a distance by Apna Video Call</p>
+                    <p>Cover a distance by  Video Call</p>
                     <div role='button'>
                         <Link to={"/auth"}>Get Started</Link>
                     </div>
