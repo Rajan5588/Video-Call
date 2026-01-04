@@ -111,7 +111,7 @@
 
   .conferenceView video {
     width: 100%;
-    height: 32vh;
+    height: 40vh;
     min-width: unset;
     border-radius: 12px;
   }
