@@ -96,3 +96,75 @@
   height: auto;
   border-radius: 20px;
 }
+
+
+/* =========================
+   Landing Page - Mobile CSS
+   ========================= */
+@media screen and (max-width: 768px) {
+
+  .landingPageContainer nav {
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+  }
+
+  .navHeader h2 {
+    font-size: 1.4rem;
+  }
+
+  .navlist {
+    width: 100%;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    font-size: 0.95rem;
+  }
+
+  .navlist p {
+    margin: 0;
+  }
+
+  .navlist div[role="button"] {
+    padding: 4px 12px;
+    border-radius: 14px;
+    background: #ff9839;
+  }
+
+  .navlist div[role="button"] p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: black;
+  }
+
+  .landingMainContainer {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.2rem;
+    height: auto;
+    gap: 2rem;
+  }
+
+  .landingMainContainer h2 {
+    font-size: 1.6rem;
+  }
+
+  .landingMainContainer p {
+    font-size: 1rem;
+  }
+
+  .landingMainContainer div[role="button"] {
+    margin: 1.5rem auto 0;
+    padding: 8px 18px;
+    border-radius: 20px;
+  }
+
+  .landingMainContainer div[role="button"] a {
+    font-size: 1.1rem;
+  }
+
+  .landingMainContainer img {
+    height: 35vh;
+    max-width: 90%;
+  }
+}

@@ -512,9 +512,9 @@ export default function VideoMeetComponent() {
                         </IconButton>
 
                         {screenAvailable === true ?
-                            <IconButton onClick={handleScreen} style={{ color: "white" }}>
+                            <IconButton onClick={handleScreen} style={{ color: "orange" }}>
                                 {screen === true ? <ScreenShareIcon /> : <StopScreenShareIcon />}
-                            </IconButton> : <></>}
+                            </IconButton> : <>r</>}
 
                         <Badge badgeContent={newMessages} max={999} color='orange'>
                             <IconButton onClick={() => setModal(!showModal)} style={{ color: "white" }}>
